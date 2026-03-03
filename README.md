@@ -16,4 +16,19 @@ Pastikan Anda telah menginstal Python 3.8 ke atas. Untuk menginstal semua *libra
 
 ```bash
 pip install pandas numpy scikit-learn xgboost Sastrawi matplotlib seaborn youtube-comment-downloader tqdm
+```
 
+## ⚙️ Cara Penggunaan
+1. Tahap Pengambilan Data (jika tidak ada data uji atau mencari data uji baru)
+Buka YoutubechatSCRAPplus.py, masukkan URL video YouTube target (dibagian bawah kode program), lalu run file:
+```bash
+python YoutubechatSCRAPplus.py
+```
+Data akan tersimpan secara otomatis dalam format data_uji_clean.csv.
+
+2. Tahap Klasifikasi & Komparasi
+Jalankan skrip utama untuk melihat hasil analisis:
+```bash
+python ModelCompOLD.py
+```
+Program akan menampilkan laporan klasifikasi (Precision, Recall, F1-Score), conffusion matrix, dan durasi waktu proses (terminal). program juga akan menyimpan visualisasi grafik dan matrix dalam format .png, serta hasil klasifikasi pada data uji dalam format .csv.
