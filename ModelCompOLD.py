@@ -37,7 +37,7 @@ def preprocess_text(text):
 
 print("📂 Memuat dataset...")
 try:
-    df_train = pd.read_csv('Data_training.csv')
+    df_train = pd.read_csv('Data_training.csv') # file data training
     df_train['label'] = pd.to_numeric(df_train['label'], errors='coerce').fillna(0).astype(int)
     print(f"   ✅ Data Training dimuat: {len(df_train)} baris")
 except FileNotFoundError:
@@ -65,7 +65,7 @@ df_injection = pd.DataFrame({
 df_train = pd.concat([df_train, df_injection], ignore_index=True)
 
 try:
-    df_test = pd.read_csv('data_uji_livestreamL.csv')
+    df_test = pd.read_csv('data_uji_clean.csv') # file data uji
     print(f"   ✅ Data Uji dimuat: {len(df_test)} baris")
 except FileNotFoundError:
     print("   ❌ Error: File 'data_uji_livestreamL1.csv' tidak ditemukan.")
@@ -255,4 +255,5 @@ else:
 output_filename = 'hasil_klasifikasi_livestream.csv'
 df_test.to_csv(output_filename, index=False)
 print(f"\n💾 Hasil prediksi lengkap disimpan ke: {output_filename}")
+
 print("🖼️ File grafik berhasil disimpan: 'Grafik_Komparasi_HateSpeech.png' & 'Grafik_Confusion_Matrix.png'")
