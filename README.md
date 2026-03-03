@@ -34,7 +34,7 @@ python ModelCompOLD.py
 Program akan menampilkan laporan klasifikasi (Precision, Recall, F1-Score), conffusion matrix, dan durasi waktu proses (terminal). program juga akan menyimpan visualisasi grafik dan matrix dalam format .png, serta hasil klasifikasi pada data uji dalam format .csv.
 
 
-#📚 Referensi Utama
+##📚 Referensi Utama
 Buda, M., Maki, A., & Mazurowski, M. A. (2018). A systematic study of the class imbalance problem in convolutional neural networks. Neural Networks, 106, 249-259.
 
 Pamungkas, E. W., Purworini, D., Putri, D. G. P., & Akhtar, S. (2024). Enhancing hate speech detection in Indonesian using abusive words lexicon. Indonesian Journal of Electrical Engineering and Computer Science, 33(1), 450-462.
