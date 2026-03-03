@@ -35,12 +35,13 @@ Program akan menampilkan laporan klasifikasi (Precision, Recall, F1-Score), conf
 
 
 ##📚 Referensi Utama
-Buda, M., Maki, A., & Mazurowski, M. A. (2018). A systematic study of the class imbalance problem in convolutional neural networks. Neural Networks, 106, 249-259.
-
-Pamungkas, E. W., Purworini, D., Putri, D. G. P., & Akhtar, S. (2024). Enhancing hate speech detection in Indonesian using abusive words lexicon. Indonesian Journal of Electrical Engineering and Computer Science, 33(1), 450-462.
 
 Dey, R. K., Sarddar, D., Bose, R., Sutradhar, S., Sarkar, I., & Roy, S. (2024). Combating Hate Speech on Social Media: Automated Detection using XGBoost Algorithm. Journal of Informatics Electrical and Electronics Engineering (JIEEE), 5(1), 1-10.
 
 Jiang, H., He, Z., Ye, G., & Zhang, H. (2020). Network Intrusion Detection Based on PSO-Xgboost Model. IEEE Access, 8, 58392-58401.
+
+Pamungkas, E. W., Purworini, D., Putri, D. G. P., & Akhtar, S. (2024). Enhancing hate speech detection in Indonesian using abusive words lexicon. Indonesian Journal of Electrical Engineering and Computer Science, 33(1), 450-462.
+
+Buda, M., Maki, A., & Mazurowski, M. A. (2018). A systematic study of the class imbalance problem in convolutional neural networks. Neural Networks, 106, 249-259.
 
 Wei, J., & Zou, K. (2019). EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks. EMNLP-IJCNLP.
