@@ -1,4 +1,4 @@
-# Analisis Komparasi XGBoost vs Random Forest: Klasifikasi Ujaran Kebencian pada YouTube (Netizen +62)
+# Analisis Komparasi XGBoost vs Random Forest: Klasifikasi Ujaran Kebencian pada Komentar Hasil Live Streaming YouTube
 
 Proyek ini merupakan implementasi penelitian skripsi yang berfokus pada deteksi otomatis ujaran kebencian (*hate speech*) pada kolom komentar hasil live streaming (VOD) melalui platform YouTube. Penelitian ini menggunakan pendekatan teknik **Lexicon Injection** untuk meningkatkan akurasi deteksi pada domain spesifik ujaran kebencian data uji (Gaming/Live Streaming).
 
