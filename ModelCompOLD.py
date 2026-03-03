@@ -47,10 +47,10 @@ except FileNotFoundError:
 print("💉 Menyuntikkan kosakata toksik dengan Variasi Kalimat...") # injeksi hatespeech berdasarkan data uji (metode lexicon untuk imbalance data)
 custom_hate_speech = [
     # Kata Tunggal
-    "elek", "karbit", "kikir", "ampas", "cupu", "taik", "mani",
+    "elek", "karbit", "kikir", "cupu", "taik", "mani",
     
     # Frasa Live Stream (Bigram)
-    "gacha scam", "l animasi", "game jelek", "l stream", "l juan",
+    "l animasi", "game jelek", "l stream", "l juan",
     
     # Variasi Kalimat (Agar N-Gram menangkap konteks)
     "streamer cupu", "game ampas", "grafik elek", "dasar karbit", 
@@ -257,3 +257,4 @@ df_test.to_csv(output_filename, index=False)
 print(f"\n💾 Hasil prediksi lengkap disimpan ke: {output_filename}")
 
 print("🖼️ File grafik berhasil disimpan: 'Grafik_Komparasi_HateSpeech.png' & 'Grafik_Confusion_Matrix.png'")
+
