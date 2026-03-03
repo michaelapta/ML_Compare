@@ -138,7 +138,7 @@ if __name__ == "__main__":
     JUMLAH_DATA = 200 
     
     # PERBAIKAN: Gunakan DETIK MURNI (Integer). 300 = Menit ke 5:00.
-    WAKTU_MULAI_DETIK = 3525 # menyesuaikan data uji 
+    WAKTU_MULAI_DETIK = 3525 # menyesuaikan timestamp data uji 
     
     print(f"\n🚀 Memulai ekstraksi dari URL: {URL_TARGET}")
     print(f"⏱️ Mulai dari detik ke-: {WAKTU_MULAI_DETIK}")
@@ -180,3 +180,4 @@ if __name__ == "__main__":
     except Exception as e:
 
         print(f"\n❌ Terjadi kesalahan sistem: {e}")
+
