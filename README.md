@@ -34,8 +34,7 @@ python ModelCompOLD.py
 Program akan menampilkan laporan klasifikasi (Precision, Recall, F1-Score), conffusion matrix, dan durasi waktu proses (terminal). program juga akan menyimpan visualisasi grafik dan matrix dalam format .png, serta hasil klasifikasi pada data uji dalam format .csv.
 
 
-##📚 Referensi Utama
-
+## 📚 Referensi Utama
 Dey, R. K., Sarddar, D., Bose, R., Sutradhar, S., Sarkar, I., & Roy, S. (2024). Combating Hate Speech on Social Media: Automated Detection using XGBoost Algorithm. Journal of Informatics Electrical and Electronics Engineering (JIEEE), 5(1), 1-10.
 
 Jiang, H., He, Z., Ye, G., & Zhang, H. (2020). Network Intrusion Detection Based on PSO-Xgboost Model. IEEE Access, 8, 58392-58401.
